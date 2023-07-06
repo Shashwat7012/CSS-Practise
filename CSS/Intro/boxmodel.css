@@ -1,0 +1,306 @@
+.hii{
+    width:300px;
+    border:15px solid red ;
+    border-radius:30px;
+    outline-style:double;
+    outline-width: 10px;
+    outline-color:black;
+    outline-offset:15px;
+    padding:50px;
+    
+    margin-top: 50px;
+    margin-left:50px;
+    text-align:justify;
+
+}
+/* Text decoration */
+/* text-decoration-line
+text-decoration-color
+text-decoration-style
+text-decoration-thickness
+text-decoration */
+.over{
+    margin-top: 60px;
+text-decoration: overline;
+}
+h2{
+    text-decoration: line-through;
+}
+h3{
+    text-decoration: underline;
+}
+h3{
+    text-decoration: overline underline;
+}
+.over{
+    text-decoration-line: overline;
+    text-decoration-color: aqua;
+    text-decoration-style: dotted;
+
+}
+h2{
+    text-decoration-line:line-through;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+}
+
+
+/* Text Transformation
+The text-transform property is used to specify uppercase and lowercase letters in a text */
+
+.sh{
+    text-transform: lowercase;
+}
+.pa{
+    text-transform: uppercase;
+}
+
+/* Text Shadow */
+.tshadow{
+    color:peru;
+    text-shadow: 2px 5px red;
+    /* horizontal shadow and vertical shadow */
+}
+.seffect{
+    font-size: 40px;
+    text-shadow: 2px 2px 5px red;
+    
+    /* add blur effect to shadow */
+}
+.diff{
+    font-weight:bold;
+    font-size:50px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Fonts */
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .p2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+
+  /* CSS LINKS */
+  .anchor{
+    color:darkorange;
+  }
+  .an:link{
+        color:red;
+        background-color: yellow;
+        text-decoration: none;
+  }
+  .an:visited{
+    background-color: cyan;
+    text-decoration: none;
+  }
+  .an:hover{
+  background-color: lightgrey;
+    text-decoration:underline;
+  }
+  .an:active{
+    color:blue;
+    text-decoration:line-through;
+  }
+
+  .button:link,.button:visited{
+    background-color: orange;
+    color:white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+
+  }
+  .button:hover,.button:active{
+    color:cornflowerblue;
+    background-color: red;
+  }
+  ol{
+    background:#ff9999;
+    padding:20px;
+  }
+  ul{
+    background-color: #3399ff;
+    padding:20px;
+  }
+  ol li {
+    background-color: #ffe5e5;
+    color:darkred;
+    padding:10px;
+    margin-left:35px;
+  }
+  ul li{
+    background-color: aliceblue;
+    margin:5px;
+  }
+  table,th,td{
+    border:1px solid;
+    border-radius: 5px;
+    border-style:outset;
+    border-color: #FF0000;
+    outline: 2px;
+    outline-color: black;
+  }
+  table{
+    width:100%;
+    border-collapse:collapse;
+  }
+  th{
+    height:100px;
+  }
+  
+
+
+
+
+  /* Display Property */
+/* The display property is the most important CSS property for controlling layout. */
+/* The display property specifies if/how an element is displayed.
+
+Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline. */
+
+
+/* Block-level Elements
+A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+
+The <div> element is a block-level element.
+Examples of block-level elements:
+
+<div>
+<h1> - <h6>
+<p>
+<form>
+<header>
+<footer>
+<section> */
+
+
+/* Inline Elements
+An inline element does not start on a new line and only takes up as much width as necessary.
+
+This is an inline <span> element inside a paragraph.
+
+Examples of inline elements:
+
+<span>
+<a>
+<img> */
+.ab{
+    display:inline;
+}
+.pan{
+    display: block;
+}
+h5{
+    visibility:hidden;
+}
+h3{
+    display:none;
+}
+/* Display none and visibility hidden are same but in visibility hidden mode
+the original size will not change */
+
+
+
+/* Position Property */
+/* The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+relative
+fixed
+absolute
+sticky */
+.relative{
+    position: relative;
+    /* left:70px; */
+    width:400px;
+    height:200px;
+    border:3px solid #73AD21;
+}
+.fixed{
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:200px;
+    border: 3px dotted #73AD21;
+}
+.absolute{
+    position:absolute;
+    top:80px;
+    right:0;
+    width:200px;
+    height:100px;
+    border:3px solid #73AD21;
+}
+
+
+
+/* Z index
+ The z-index property specifies the stack order of an element.*/
+ .tree{
+    position:absolute;
+  
+    right:0;
+    bottom:0;
+    z-index:-1;
+ }
+ .container{
+    position:relative;
+    z-index:1;
+    border:2px solid black;
+    width:200px;
+    height:300px;
+ }
+ .con{
+    position:absolute;
+    background-color: lightgray;
+    z-index:3;
+    height: 60px;  
+  width: 70%;
+  left: 100px;
+  top: 50px;
+ }
+
+
+ /* Overflow */
+ .visible{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+ }
+ .hidden{
+    position:absolute;
+    right:50px;
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: hidden;
+ }
+ .scroll{
+    position:absolute;
+    top:200px;
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: hidden;
+ }
+ .next{
+    position:absolute;
+    bottom:50px;
+    right:50px;
+ }

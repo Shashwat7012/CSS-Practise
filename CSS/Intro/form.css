@@ -1,0 +1,48 @@
+.inp1{
+width:50%;
+padding: 12px 20px;
+margin:8px 0;
+margin-right: 20px;
+box-sizing:content-box;
+border:2px solid red;
+border-radius: 5px;
+background-color:aliceblue;
+color:blue;
+
+border:3px solid #555;
+background-image: url('https://tse4.mm.bing.net/th?id=OIP.rsZB5iKwX6totSXcV94swQHaHN&pid=Api&P=0&h=180');
+background-position: 10px 10px;
+padding-left:40px;
+transition: width 0.9999s ease-in-out;
+
+}
+.inp1:focus{
+    width:100%;
+}
+
+.header{
+    background-color: antiquewhite;
+    padding:20px;
+    text-align:center;
+}
+.topnav{
+    overflow:hidden;
+    background-color: #333;
+}
+.topnav a{
+    float:left;
+    display:block;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color:#ddd;
+    color:black;
+}
+.column{
+    float:left;
+    width:30%;
+    padding:15px;
+}

@@ -1,0 +1,59 @@
+.dotted{
+    border-style:dotted;
+    border-color: red;
+    
+}
+.dashed{
+    border-style:dashed;
+    border-color: red green blue yellow;
+
+}
+.solid{
+    
+    border-style:solid;
+    border-width:5px 20px /* 5px on top and bottom and 20 px on sides*/
+    
+
+}
+.double{
+    border-style:double;
+}
+.inset{
+    border-style:inset;
+    border-width:10px
+    b
+}
+.outset{
+    border-style:outset;
+}
+.mix{
+    border-style:dotted dashed solid double;
+}
+.groove{
+    border-style:groove;
+    border-width:10px;
+}
+.sides{
+    border-top-style:dashed;
+    border-right-style:solid;
+    border-bottom-style:hidden;
+    border-left-style:solid;
+
+}
+.sha{
+    border-left-style:inset;
+    border-left:6px solid purple;
+    border-bottom-style:outset;
+    border-bottom:6px solid purple;
+}
+.round{
+    text-align: center;
+    border:2px solid red;
+    border-radius:5px
+}
+.roundest{
+    text-align: center;
+    border-style: inset;
+    border-color: red;
+    border-radius: 20px;
+}

@@ -1,0 +1,47 @@
+/* body{
+    background-color: lightblue;
+} */
+h1{
+    background-color: aqua;
+}
+p{
+    background-color: blueviolet;
+}
+div{
+    background-color: yellow;
+}
+/*Opacity / Transparency
+The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent: */
+div{
+    opacity:0.5;
+}
+
+
+/* Background Image */
+body{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.F9f1dItYlWxqrWC6HeOJvAHaEK&pid=Api&P=0&h=180");
+    /* background-repeat: repeat-x;
+    background-repeat:repeat-y; */
+    background-repeat:no-repeat;
+
+/* background Position */
+    background-position: right top;
+/* background Attachment */
+background-attachment: fixed;
+/* In this the attachment of background image is fixed  */
+background-attachment: scroll; 
+ /*In this the background image will scroll with site  */
+}
+
+
+/* Shorthand Property :- When using the shorthand property the order of the property values is:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position  
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+*/

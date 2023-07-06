@@ -1,0 +1,9 @@
+/* To center */
+p{
+    color:red;
+    text-align: center;
+}
+p{
+    background-color: aquamarine;
+}
+/* In CSS, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values: */
